@@ -1,0 +1,136 @@
+name: color_blind_test
+description: Color Blindness test with ishihara
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  percent_indicator: ^2.1.7+2
+  carousel_slider: ^2.2.1
+  path_provider: ^1.6.24
+  sqflite: ^1.3.2+4
+  video_player: ^0.10.12+4
+  chewie: ^0.10.0
+  url_launcher: ^5.7.10
+  better_player: ^0.0.48
+  camera: ^0.7.0+2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  assets:
+    - assets/images/home1.png
+    - assets/images/quiz1-min.png
+    - assets/images/logo.png
+    - assets/images/result1.png
+    - assets/images/aboutus.png
+    - assets/images/profile.png
+    - assets/images/mainResult.png
+    - assets/images/colorful1.jpg
+    - assets/images/colorful2.jpg
+    - assets/images/colorful3.jpg
+    - assets/images/colorful4.jpg
+    - assets/images/colorful5.jpg
+    - assets/images/colorful6.png
+    - assets/images/sample.png
+    - assets/images/Ishihara-Plate-01-38.jpg
+    - assets/images/Ishihara-Plate-02-38.jpg
+    - assets/images/Ishihara-Plate-03-38.jpg
+    - assets/images/Ishihara-Plate-04-38.jpg
+    - assets/images/Ishihara-Plate-05-38.jpg
+    - assets/images/Ishihara-Plate-06-38.jpg
+    - assets/images/Ishihara-Plate-07-38.jpg
+    - assets/images/Ishihara-Plate-08-38.jpg
+    - assets/images/Ishihara-Plate-09-38.jpg
+    - assets/images/Ishihara-Plate-10-38.jpg
+    - assets/images/Ishihara-Plate-11-38.jpg
+    - assets/images/Ishihara-Plate-12-38.jpg
+    - assets/images/Ishihara-Plate-13-38.jpg
+    - assets/images/Ishihara-Plate-14-38.jpg
+    - assets/images/Ishihara-Plate-15-38.jpg
+    - assets/images/Ishihara-Plate-16-38.jpg
+    - assets/images/Ishihara-Plate-17-38.jpg
+    - assets/images/Ishihara-Plate-18-38.jpg
+    - assets/images/Ishihara-Plate-19-38.jpg
+    - assets/images/Ishihara-Plate-20-38.jpg
+    - assets/images/Ishihara-Plate-21-38.jpg
+    - assets/images/Ishihara-Plate-22-38.jpg
+    - assets/images/Ishihara-Plate-23-38.jpg
+    - assets/images/Ishihara-Plate-24-38.jpg
+    - assets/images/Ishihara-Plate-25-38.jpg
+    - assets/images/Ishihara-Plate-26-38.jpg
+    - assets/images/Ishihara-Plate-27-38.jpg
+    - assets/images/Ishihara-Plate-28-38.jpg
+    - assets/images/Ishihara-Plate-29-38.jpg
+    - assets/images/Ishihara-Plate-30-38.jpg
+    - assets/images/Ishihara-Plate-31-38.jpg
+    - assets/images/Ishihara-Plate-32-38.jpg
+    - assets/images/Ishihara-Plate-33-38.jpg
+    - assets/images/Ishihara-Plate-34-38.jpg
+    - assets/images/Ishihara-Plate-35-38.jpg
+    - assets/images/Ishihara-Plate-36-38.jpg
+    - assets/images/Ishihara-Plate-37-38.jpg
+    - assets/images/Ishihara-Plate-38-38.jpg
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: fonts/lobster.ttf
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
